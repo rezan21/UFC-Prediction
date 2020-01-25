@@ -1,16 +1,16 @@
 # UFC-Prediction
 ## Predicting Fight's Winner with Machine Learning and AI
 
-This project consists of number of jupyter notebooks which provide the following:
+This project consists of a number of jupyter notebooks which provide the following:
 
 1. __Data Preprocessing and Exploratory Data Analysis (EDA):__
-    - Used libraries: `pandas`, `numpy`, `missingno`
+    - Used libraries: `pandas`, `NumPy`, `missingno`
     
 2. __Visualisations:__
-    - `Plotly` for Interactive plots and `seaborn`/`matplotlib` for regular charts
+    - `Plotly` for Interactive plots and `Seaborn`/`Matplotlib` for regular charts
     
 3. __Construction of DNN with Hyper-parameters tuning:__
-    - `Keras`/`kerastuner` and `Tensorflow`
+    - `Keras`/`keras-tuner` and `Tensorflow`
     
 4. __Ensemble Method (Combining different ML models):__
     - `Tensorflow`/`Keras` and `Scikit-Learn`
@@ -20,13 +20,13 @@ This project consists of number of jupyter notebooks which provide the following
 ---
 
 ### Introduction
-Aim is __Data-driven decision making (DDDM)__ approach towards discovering recurring patterns in the data to predict the outcome of a sporting event in the future.
+The aim is __Data-driven decision making (DDDM)__ approach towards discovering recurring patterns in the data to predict the outcome of a sporting event in the future.
 
 🥊 __The Ultimate Fighting Championship (UFC)__ is currently one of the fastest-growing sports in the world (Telegraph, 2017) and organises events weekly.
 
 ### Dataset
 The original dataset, `data.csv`, found on Kaggle, contains the list of all UFC fights from 1993 to 2019. Each row represents information on match details, two fighters (blue and red), and the winner.
-E.g: Demographics, body attributes, player current form , match details
+E.g: Demographics, body attributes, player current form, match details
 
 - __Dimensions: 5144 rows x 145 columns__
 - 9 categorical, 136 numerical features
@@ -35,7 +35,7 @@ E.g: Demographics, body attributes, player current form , match details
 - Baseline - 67% (Similar Features Considered)
 
 ### Data Preprocessing
-processes taken place:
+Performed tasks:
 
 - Feature Selection
 - Replacing empty string with NA
@@ -51,7 +51,7 @@ processes taken place:
   - Dropping Remaining Missings
   
 ### ML Models and Ensemble Method
-Used models separatly and then combined them in to one ensembled model:
+Used models separately and then combined them into one ensembled model:
 
 - __Deep Neural Network (DNN)__
 - __Support Vector Machine (SVM)__
