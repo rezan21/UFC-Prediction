@@ -51,11 +51,20 @@ Performed tasks:
   - Dropping Remaining Missings
   
 ### ML Models and Ensemble Method
-Used models separately and then combined them into one ensembled model:
+Trained multiple models separately and then combined them into one ensembled model to increase performance:
 
 - __Deep Neural Network (DNN)__
 - __Support Vector Machine (SVM)__
+- __Dicision Tree (DT)__
+- __AdaBoost__
 - __Random Forest (RF)__
+- __ExtraTrees__
+- __GradientBoosting__
+- __Multi-Layer Perceptron (MLP)__
+- __K-Nearest-Neighbours (KNN)__
+- __Logistic Regression__
+- __Linear Discriminant Analysis (LDA)__
+- __XGB__
 
 ### Backend Data API and Development
 Generated the latest fighter details and used trained models to predict matches. App deployed on heroku and available on (https://ai-predicts-ufc.herokuapp.com)
