@@ -1,6 +1,8 @@
 # UFC-Prediction
 ## Predicting Fight's Winner with Machine Learning and AI
 
+[ai-predicts-ufc](https://ai-predicts-ufc.herokuapp.com)
+
 This project consists of a number of jupyter notebooks which provide the following:
 
 1. __Data Preprocessing and Exploratory Data Analysis (EDA):__
