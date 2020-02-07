@@ -17,7 +17,7 @@ This project consists of a number of jupyter notebooks which provide the followi
 4. __Ensemble Method (Combining different ML models):__
     - `Tensorflow`/`Keras` and `Scikit-Learn`
     
-5. App Development and Deployment (in progress...)
+5. __App Development and Deployment__
 
 ---
 
@@ -59,8 +59,8 @@ Used models separately and then combined them into one ensembled model:
 - __Support Vector Machine (SVM)__
 - __Random Forest (RF)__
 
-### Backend Data API and Development (in progress)
-Generated the latest fighter details and used trained models to predict matches
+### Backend Data API and Development
+Generated the latest fighter details and used trained models to predict matches. App deployed on heroku and available on (https://ai-predicts-ufc.herokuapp.com)
 
 __© TheDeepestLearners__
 
