@@ -8,7 +8,7 @@ This project consists of a number of jupyter notebooks which provide the followi
 1. __Data Preprocessing and Exploratory Data Analysis (EDA):__
     - Used libraries: `pandas`, `NumPy`, `missingno`
     
-2. __Visualisations:__
+2. [__Visualisations:__ ](https://nbviewer.jupyter.org/github/rezan21/UFC-Prediction/blob/master/Visualisation.ipynb)
     - `Plotly` for Interactive plots and `Seaborn`/`Matplotlib` for regular charts
     
 3. __Construction of DNN with Hyper-parameters tuning:__
