@@ -1,5 +1,8 @@
 /mylocals
 .DS_Store
+app/.vscode
+.vscode
+*/.vscode
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -112,6 +115,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+*/env
+app/env
 
 # Spyder project settings
 .spyderproject
